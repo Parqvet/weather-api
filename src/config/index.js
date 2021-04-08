@@ -25,7 +25,7 @@ module.exports = {
         apikey: process.env.MAPBOX_API_KEY
     },
     openweathermap: {
-        pathbase: '',
+        pathbase: 'https://api.openweathermap.org/data/2.5/weather',
         apikey: process.env.OPENWEATHERMAP_API_KEY
     }
 }

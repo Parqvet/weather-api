@@ -1,5 +1,6 @@
 const CityRepository = require('../repositories/cityRepository');
 const repository = new CityRepository();
+const logger = require('../loaders/logger');
 
 const findCities = async (city) => {
 
