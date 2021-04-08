@@ -9,7 +9,7 @@ const findCities = async (city) => {
         return {
             id: e.id,
             name: e.place_name,
-            long: e.geometry.coordinates[0],
+            lon: e.geometry.coordinates[0],
             lat: e.geometry.coordinates[1]
         }
     })

@@ -23,5 +23,9 @@ module.exports = {
     mapbox: {
         pathBase: 'https://api.mapbox.com/geocoding/v5/mapbox.places/',
         apikey: process.env.MAPBOX_API_KEY
+    },
+    openweathermap: {
+        pathbase: '',
+        apikey: process.env.OPENWEATHERMAP_API_KEY
     }
 }
